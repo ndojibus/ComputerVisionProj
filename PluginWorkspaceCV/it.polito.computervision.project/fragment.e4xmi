@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_23W9gMIyEeinC7avVbyaFw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_WsG2oMI1EeinC7avVbyaFw" featurename="commands" parentElementId="xpath:/">
+    <elements xsi:type="commands:Command" xmi:id="_YJUbgMI1EeinC7avVbyaFw" elementId="it.polito.computervision.project.command.opencvcheck" commandName="OpenCV Check"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_LFG-UMI1EeinC7avVbyaFw" featurename="handlers" parentElementId="xpath:/">
+    <elements xsi:type="commands:Handler" xmi:id="_PI_qgMI1EeinC7avVbyaFw" elementId="it.polito.computervision.project.handler.0" contributionURI="bundleclass://it.polito.computervision.project/it.polito.computervision.handlers.TrimHandler" command="_YJUbgMI1EeinC7avVbyaFw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_y_eQgMIzEeinC7avVbyaFw" featurename="trimContributions" parentElementId="xpath:/">
+    <elements xsi:type="menu:TrimContribution" xmi:id="_Du_h0MI0EeinC7avVbyaFw" elementId="it.polito.computervision.project.trimcontribution.0" parentId="org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="_HOV9kMI0EeinC7avVbyaFw" elementId="it.polito.computervision.project.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Ip7x0MI0EeinC7avVbyaFw" elementId="it.polito.computervision.project.handledtoolitem.opencvcheck" label="OpenCV Check" command="_YJUbgMI1EeinC7avVbyaFw"/>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_vV4zgMJbEeitoZDPu8rpMA" featurename="descriptors" parentElementId="xpath:/">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_xZV5AMJbEeitoZDPu8rpMA" elementId="it.polito.computervision.project.partdescriptor.problemview" label="Problem View Cascade" contributionURI="bundleclass://it.polito.computervision.project/it.polito.computervision.view.ProblemView">
+      <tags>View</tags>
+    </elements>
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_tfaX0MMQEeibldnG5DIolQ" elementId="it.polito.computervision.project.partdescriptor.cannyproblem" label="cannyproblem" contributionURI="bundleclass://it.polito.computervision.project/it.polito.computervision.view.ProblemView2">
+      <tags>View</tags>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

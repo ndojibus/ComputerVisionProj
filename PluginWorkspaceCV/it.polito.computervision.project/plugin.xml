@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="Computer Vision Project"
+            application="org.eclipse.ui.ide.workbench">
+      </product>
+   </extension>
+   <extension
+         id="it.polito.computervision.project.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+   <extension
+         id="cvproject"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.ui.ide.workbench"
+            name="Computer Vision Project">
+         <property
+               name="appName"
+               value="Computer Vision Project">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
